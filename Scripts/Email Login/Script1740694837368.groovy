@@ -17,27 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// 1. Opens a new browser
-WebUI.openBrowser('')
-
-// 2. Maximise the window
-WebUI.maximizeWindow()
-
-// 3. Navigate to URL "https://new-frontend-uat.timespro.com/"
-WebUI.navigateToUrl('https://new-frontend-uat.timespro.com/')
-
-// 4. Clicks on the Login button
-WebUI.click(findTestObject('AIHack/button_Login'))
-
-// 5. Enters the email address "ajuat1000@yopmail.com"
-WebUI.setText(findTestObject('AIHack/input_Email'), 'ajuat1000@yopmail.com')
-
-// 6. Clicks the Continue button
-WebUI.click(findTestObject('Object Repository/Page_Times Professional Learning/button_Continue'))
-
-// 7. Enters password "cvW8qx4B2o3F4VwP/kNsqA=="
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Times Professional Learning/input_Password_password'), 'cvW8qx4B2o3F4VwP/kNsqA==')
-
-// 8. Click on continue button
-WebUI.click(findTestObject('Object Repository/Page_Times Professional Learning/button_Continue'))
-

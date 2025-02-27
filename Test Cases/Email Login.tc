@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login with Email id</name>
+   <name>Email Login</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>74324df4-7e18-4c27-bbe6-b96c467e9caa</testCaseGuid>
+   <testCaseGuid>e237b48c-579a-4313-b106-6b756959761b</testCaseGuid>
 </TestCaseEntity>
